@@ -1,12 +1,12 @@
 {
-  "name": "SAHAS-MD",
+  "name": "DENUWAN-MD",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SAHAS-MD",
-    "stop": "pm2 stop SAHAS-MD",
-    "restart": "pm2 restart SAHAS-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name DENUWAN-MD",
+    "stop": "pm2 stop DENUWAN-MD",
+    "restart": "pm2 restart DENUWAN-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.8",
