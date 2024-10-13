@@ -25,8 +25,7 @@ _Get .allmenu For The Bot All Menu_ ⚔
 const buttons = [
       {
         "name": "quick_reply",
-        "buttonParamsJson": JSON.${seconds} Second(s)*
-stringify({
+        "buttonParamsJson": JSON.stringify({
           display_text: "MENU",
           id: `${prefix}menu`
         })
