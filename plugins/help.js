@@ -20,7 +20,7 @@ let dec = `*👋 Hello ${pushname}*
 _Get .allmenu For The Bot All Menu_ ⚔
 
 > *©𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙳𝙴𝙽𝚄𝚆𝙰𝙽-𝙼𝙳*
-`
+`;
 
 const buttons = [
       {
@@ -36,7 +36,7 @@ const buttons = [
           display_text: "PING",
           id: `${prefix}ping`
         })
-      }
+      },
       {
         "name": "cta_url",
         "buttonParamsJson": JSON.stringify({
